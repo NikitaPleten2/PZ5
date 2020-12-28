@@ -1,0 +1,190 @@
+.image {
+  position: relative;
+  margin: -10px;
+}
+.image nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.zagolovok {
+  font-family: "Source Code Pro";
+  font-size: 230%;
+  text-align: center;
+}
+
+.send {
+  color: black;
+  font-family: "Oswald";
+}
+.send:hover {
+  cursor: alias;
+  color: #ff8800;
+  transition: 0.5s;
+}
+
+.button-reg {
+  font-family: "Oswald";
+  color: #070707;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 90px;
+  padding-right: 90px;
+  cursor: pointer;
+  background: #fffb00;
+}
+.button-reg:hover {
+  background: #ffa600;
+  transition: 0.5s;
+}
+
+.pole, .atribut {
+  font-family: "Oswald";
+}
+.pole p, .atribut p {
+  clear: both;
+  line-height: 10px;
+  padding-right: 50px;
+}
+.pole textarea, .atribut textarea {
+  padding-left: 167px;
+}
+
+.atribut {
+  text-align: left;
+}
+
+.marklist {
+  padding-left: 700px;
+}
+.marklist a:hover {
+  transition: 0.5s;
+  color: #133bed;
+}
+
+ul.marklist li {
+  display: inline;
+  margin: 12px;
+  font-size: 30px;
+  font-family: "Oswald";
+}
+ul.marklist a {
+  color: #080808;
+  text-decoration: none;
+}
+
+.text {
+  font-family: "Oswald";
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 100;
+}
+
+.projects {
+  margin-left: 100px;
+  margin-right: 150px;
+  width: 85%;
+  table-layout: fixed;
+}
+
+.text1 {
+  font-family: "Oswald";
+  padding-left: 10px;
+  padding-right: 60px;
+  text-align: center;
+  vertical-align: top;
+  word-wrap: normal;
+}
+.text1 strong {
+  font-weight: 1000;
+}
+
+.uslugi {
+  padding-left: 100px;
+}
+
+.textuslugi {
+  padding-left: 30px;
+  padding-right: 120px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.textuslugi p {
+  padding-right: 50px;
+  font-family: "Oswald";
+  text-align: justify;
+}
+.socialnetworks {
+  padding-left: 600px;
+}
+
+ul.socialnetworks li {
+  display: inline;
+}
+
+.niz {
+  position: relative;
+  margin: -30px;
+  margin-top: 90px;
+}
+.niz nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(93, 214, 230);
+}
+
+.year {
+  font-family: "Oswald";
+  color: #0a0a0a;
+  padding-left: 670px;
+}
+
+.reg {
+  margin-left: 450px;
+  margin-right: 500px;
+  padding-left: 30px;
+  border-width: 7px;
+  border-style: double;
+  border-color: red;
+}
+
+.scroll {
+  width: 300px;
+  height: 70px;
+  font-weight: 12px;
+  overflow-y: scroll;
+}
+
+.otstyp2 {
+  margin-top: 200px;
+}
+
+.opros {
+  padding-left: 450px;
+}
+
+.button {
+  color: #232323;
+  background: #84e1f8;
+  border: 1px solid #232323;
+  position: relative;
+  font-size: 14px;
+  letter-spacing: 0.4em;
+  font-family: "Montserrat", sans-serif;
+  padding: 15px 34px 15px 39px;
+  transition: 0.1s ease-in-out;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #78f3f3;
+  transition: 0.5s;
+}

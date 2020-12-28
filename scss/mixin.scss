@@ -1,0 +1,67 @@
+@mixin buttom-reg{
+    font-family: map-get($fonts, maintext);
+    color:rgb(7, 7, 7);
+    font-weight: bold;
+    font-size: 18px;
+    border:none;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 90px;
+    padding-right: 90px;
+    cursor: pointer;
+    background: #fffb00;
+    &:hover{
+      background: #ffa600;
+      transition: 0.5s;
+    }
+  };
+  @mixin uslugi{
+    color:black;
+    font-family: map-get($fonts, maintext);
+    &:hover{
+      cursor:alias;
+      color:rgb(255, 136, 0);
+      transition: 0.5s;
+    }
+   };
+   @mixin menunav{
+    li{
+      display: inline;
+      margin:12px;
+      font-size: 30px;
+      font-family: map-get($fonts, maintext);
+    }
+    a{
+      color:rgb(8, 8, 8);
+      text-decoration: none;
+    }
+  };
+  @mixin menuspisok{
+    padding-left: 700px;
+    a{
+      &:hover{
+        transition: 0.5s;
+        color: #133bed;
+      }
+    }
+   };
+   @mixin button {
+    color: #232323;
+    background: rgb(132, 225, 248);
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .4em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 34px 15px 39px;
+    transition: .1s ease-in-out;
+    margin-top: 10px;
+    cursor: pointer;
+    &:hover{
+    background: #ff9900;
+    transition: 0.5s;
+   }
+   };

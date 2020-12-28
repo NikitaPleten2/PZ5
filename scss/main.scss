@@ -1,0 +1,137 @@
+@import "variables";
+@import "mixin";
+.image{
+    position: relative;
+    margin:-10px;
+    nav{
+      position: absolute;
+      top:0;
+      width: 100%;
+    }
+  }
+  .zagolovok{
+    font-family: map-get($fonts, zagolovok);
+    font-size: $size-zagolovok;
+    text-align: center;
+  }
+  .send{
+    @include uslugi;
+  }
+  .button-reg{
+    @include buttom-reg;
+  }
+  .pole{
+    font-family: map-get($fonts, maintext); 
+    p{
+      clear:both;
+      line-height: 10px;
+      padding-right: 50px;
+    } 
+    textarea{
+      padding-left: 167px;
+    }
+  }
+  .atribut{
+    @extend .pole;
+    text-align: left;
+  }
+  .marklist{
+    @include menuspisok;
+  }
+  
+  ul.marklist{ 
+   @include menunav;
+  }
+  .text{
+    font-family: map-get($fonts, maintext);
+     padding-left: 30px;
+     padding-right: 30px;
+     font-weight: 100;
+   }
+   .projects{
+    margin-left: 100px;
+    margin-right: 150px;
+    width:85%;
+    table-layout: fixed;
+  }
+  
+  .text1 {
+   font-family: map-get($fonts, maintext);
+    padding-left: 10px;
+    padding-right: 60px;
+    text-align: center;
+    vertical-align: top;
+    word-wrap: normal;
+  strong{
+      font-weight: 1000;
+    }
+  }
+  .uslugi{
+    padding-left: 100px;
+  }
+  .textuslugi{
+      padding-left: 30px;
+      padding-right: 120px;
+      line-height: 1.5;
+      letter-spacing: 1px;
+      font-family: map-get($fonts, text-bold);
+      p{
+        padding-right: 50px;
+        font-family: map-get($fonts, maintext);
+        text-align: justify;
+      }
+      h3{
+        font-family: map-get($fonts, textbold);
+      }
+  }
+  .socialnetworks{
+    padding-left: 600px;
+    }
+    
+    ul.socialnetworks{
+      li{
+        display: inline;
+      }
+    }
+    
+    .niz{
+      position: relative;
+      margin: -30px;
+      margin-top: 90px;
+      nav{
+        position: absolute;
+        bottom: 0;
+        width:100%;
+        background-color: yellow;
+      }
+    }
+    
+    .year{
+        font-family: map-get($fonts, maintext);
+        color:rgb(10, 10, 10);
+        padding-left: 670px;
+    }
+    .reg{
+        margin-left: 450px;
+        margin-right: 500px;
+        padding-left: 30px;
+        border-width: 7px;
+        border-style: double;
+        border-color: rgb(255, 0, 0);;
+      }
+      .scroll{
+        width: 300px;
+        height: 70px;
+        font-weight: 12px;
+        overflow-y: scroll;
+        font-family: map-get($fonts, text-align);
+      }
+      .otstyp2{
+        margin-top: 200px;
+      }
+      .opros{
+          padding-left: 450px;
+      }
+      .button{
+        @include button;
+      }
